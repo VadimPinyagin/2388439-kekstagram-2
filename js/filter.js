@@ -17,7 +17,7 @@ function onFilterChange(evt) {
 
   activeButton.classList.toggle(ACTIVE_BUTTON_CLASS);
   targetButton.classList.toggle(ACTIVE_BUTTON_CLASS);
-  currentFilter = targetButton.getAttribute('id');
+  currentFilter = targetButton.id;
 
   applyFilter();
 }
